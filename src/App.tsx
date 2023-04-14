@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import styled from "styled-components";
 
 function App() {
   return (
@@ -24,3 +25,7 @@ function App() {
 }
 
 export default App;
+
+const Wrapper = styled.div`
+  background-color: red;
+`;
