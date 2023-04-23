@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/eslint", "npm:8.37.0"],\
             ["@types/jest", "npm:27.5.2"],\
             ["@types/node", "npm:16.18.23"],\
+            ["@types/prettier", "npm:2.7.2"],\
             ["@types/react", "npm:18.0.35"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@types/react-router-dom", "npm:5.3.3"],\
@@ -47,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:f449c34d140560d34a58a252a6ef7ce9d07e10e1e0a32b55181d690a978f429b8c1a464dc1d02d7752d4c9616c67ff6cc6bed98d9b34769f43d2eded085ed1ef#npm:7.32.2"],\
             ["eslint-plugin-react-hooks", "virtual:f449c34d140560d34a58a252a6ef7ce9d07e10e1e0a32b55181d690a978f429b8c1a464dc1d02d7752d4c9616c67ff6cc6bed98d9b34769f43d2eded085ed1ef#npm:4.6.0"],\
             ["eslint-plugin-simple-import-sort", "virtual:f449c34d140560d34a58a252a6ef7ce9d07e10e1e0a32b55181d690a978f429b8c1a464dc1d02d7752d4c9616c67ff6cc6bed98d9b34769f43d2eded085ed1ef#npm:10.0.0"],\
+            ["prettier", "npm:2.8.8"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:f449c34d140560d34a58a252a6ef7ce9d07e10e1e0a32b55181d690a978f429b8c1a464dc1d02d7752d4c9616c67ff6cc6bed98d9b34769f43d2eded085ed1ef#npm:18.2.0"],\
             ["react-is", "npm:18.2.0"],\
@@ -8761,10 +8763,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:f449c34d140560d34a58a252a6ef7ce9d07e10e1e0a32b55181d690a978f429b8c1a464dc1d02d7752d4c9616c67ff6cc6bed98d9b34769f43d2eded085ed1ef#npm:4.2.1"],\
             ["@types/eslint", "npm:8.37.0"],\
             ["@types/eslint-config-prettier", null],\
-            ["@types/prettier", null],\
+            ["@types/prettier", "npm:2.7.2"],\
             ["eslint", "npm:8.39.0"],\
             ["eslint-config-prettier", "virtual:f449c34d140560d34a58a252a6ef7ce9d07e10e1e0a32b55181d690a978f429b8c1a464dc1d02d7752d4c9616c67ff6cc6bed98d9b34769f43d2eded085ed1ef#npm:8.8.0"],\
-            ["prettier", null],\
+            ["prettier", "npm:2.8.8"],\
             ["prettier-linter-helpers", "npm:1.0.0"]\
           ],\
           "packagePeers": [\
@@ -14780,6 +14782,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.8.8", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.8-430828a36c-b49e409431.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.8.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["prettier-linter-helpers", [\
         ["npm:1.0.0", {\
           "packageLocation": "./.yarn/cache/prettier-linter-helpers-npm-1.0.0-6925131a7e-00ce8011cf.zip/node_modules/prettier-linter-helpers/",\
@@ -17461,6 +17472,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/eslint", "npm:8.37.0"],\
             ["@types/jest", "npm:27.5.2"],\
             ["@types/node", "npm:16.18.23"],\
+            ["@types/prettier", "npm:2.7.2"],\
             ["@types/react", "npm:18.0.35"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@types/react-router-dom", "npm:5.3.3"],\
@@ -17474,6 +17486,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:f449c34d140560d34a58a252a6ef7ce9d07e10e1e0a32b55181d690a978f429b8c1a464dc1d02d7752d4c9616c67ff6cc6bed98d9b34769f43d2eded085ed1ef#npm:7.32.2"],\
             ["eslint-plugin-react-hooks", "virtual:f449c34d140560d34a58a252a6ef7ce9d07e10e1e0a32b55181d690a978f429b8c1a464dc1d02d7752d4c9616c67ff6cc6bed98d9b34769f43d2eded085ed1ef#npm:4.6.0"],\
             ["eslint-plugin-simple-import-sort", "virtual:f449c34d140560d34a58a252a6ef7ce9d07e10e1e0a32b55181d690a978f429b8c1a464dc1d02d7752d4c9616c67ff6cc6bed98d9b34769f43d2eded085ed1ef#npm:10.0.0"],\
+            ["prettier", "npm:2.8.8"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:f449c34d140560d34a58a252a6ef7ce9d07e10e1e0a32b55181d690a978f429b8c1a464dc1d02d7752d4c9616c67ff6cc6bed98d9b34769f43d2eded085ed1ef#npm:18.2.0"],\
             ["react-is", "npm:18.2.0"],\
